@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEEBRO</title>
+    <style>
+        @font-face {
+            font-family: 'Glitch';
+            src: url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        }
+        body {
+            background: url('https://www.dropbox.com/s/your_file_id/DebroCrypto.jpg?raw=1');
+            color: #ff0000;
+            text-align: center;
+            font-family: 'Glitch', monospace;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            min-height: 100vh;
+            gap: -20px;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 8px red;
+            animation: bounce 0.8s infinite;
+            margin-bottom: -20px;
+        }
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+            100% { transform: skew(5deg); }
+        }
+        img {
+            width: 300px;
+            height: auto;
+            display: block;
+            border: 5px solid red;
+            margin-bottom: 5px;
+        }
+        .marquee {
+            font-size: 2em;
+            font-weight: bold;
+            color: yellow;
+            background: black;
+            padding: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            animation: marquee-animation 10s linear infinite;
+        }
+        @keyframes marquee-animation {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        .blink {
+            animation: blink 1s steps(2, start) infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">🚲 DEEBRO 🚲</div>
+    <div class="container">
+                <img src="https://i.imgur.com/hJyoMCX.gif" alt="DEBRO GIF">
+        <p>My bike, Punk!</p>
+        <img src="https://i.imgur.com/QUkkpy2.gif" alt="My bike Punk!" style="width: 25%;">
+    </div>
+</body>
+</html>
